@@ -1,0 +1,28 @@
+/* RESETS */
+*{
+    /* border: 1px solid gray;
+    background-color: rgb(186, 195, 223); */
+    box-sizing: border-box;
+    scroll-behavior: smoothg;
+    margin: 0;
+    padding: 0;
+}
+
+head{
+    font-weight: bold;
+
+
+}
+hr {
+    margin: 25px 0px;
+}
+main, aside, footer{
+    
+    margin: 30px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: royalblue;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(208, 214, 223);
+}
