@@ -7,6 +7,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+h1 {
+    font: fantasy;
+}
 body {
     min-height: 100vh;
 }
@@ -29,14 +32,16 @@ li:first-child {
 li:last-child {
     margin-bottom: 20px;
 }
+
 #meuHeader,
 aside p {
-    font-weight: bold;
+    font: fantasy; 
+    font-weight:bold;   
 }
 header div {
     display: inline-block;
     text-align: right;
-    width: calc( 100% - 128px);
+    width: calc( 100% - 60px);
     font-size: 14px;
 }
 header div p:first-child {
@@ -57,7 +62,7 @@ aside {
     margin: 20px 40px;
     padding: 15px;
     border-radius: 10px;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(243, 243, 243);
 }
 .meio-a-meio {
     width: calc(50% - 3px);
