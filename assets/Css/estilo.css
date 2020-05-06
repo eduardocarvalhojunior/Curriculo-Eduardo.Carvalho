@@ -9,6 +9,8 @@
 }
 h1 {
     font: fantasy;
+    padding: 0.5px 60px;
+   
 }
 body {
     min-height: 100vh;
@@ -25,24 +27,25 @@ a:hover {
 ul {
     list-style: none;
 }
-h4,
+h4, h3
 li:first-child { 
     margin-top: 12px;
 }
 li:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 #meuHeader,
 
 aside p {
     font: fantasy; 
-    font-weight:;   
+    font-size: 20px;
+   
 }
 header div {
     display: inline-block;
     text-align: right;
-    width: calc( 100% - 60px);
+    width: calc( 100% - 55px);
     font-size: 16px;
 }
 header div p:first-child {
@@ -51,7 +54,7 @@ header div p:first-child {
 }
 header div p:first-child i {
     font-size: 1.3em;
-    transition: filter 0.3s ease-in-out;
+    transition: filter 0.2s ease-in-out;
 }
 header div p:first-child i:hover {
     filter: drop-shadow( 0 3px 3px rgb(212, 138, 0));
@@ -66,11 +69,7 @@ aside {
     border-radius: 10px;
     background-color: rgb(243, 243, 243);
 }
-.meio-a-meio {
-    width: calc(50% - 3px);
-    display: inline-block;
-    vertical-align: text-top;
-}
+
 header,
 footer {
     background-color: rgb(161, 174, 250);
@@ -89,6 +88,9 @@ footer {
     font-size: 18px;
     bottom: 0;
     width: 100%;
+}
+article p {
+    font-size: 18px ;
 }
 
 section:not(:first-child) {
