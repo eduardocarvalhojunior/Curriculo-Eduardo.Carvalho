@@ -23,6 +23,10 @@ h1:nth-of-type(1)::first-letter {
         line-height: 0.5;
         letter-spacing: 3px;   
 }
+.junior{
+    color:rgb(235, 197, 28);
+    
+}
 
 body {
     min-height: 100vh;
